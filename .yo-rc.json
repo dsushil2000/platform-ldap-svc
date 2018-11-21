@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "PricingPlatformLdapSvc",
+    "packageName": "com.walmart.pricing",
+    "packageFolder": "com/walmart/pricing",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "MjAwOWEwYjQyMTQ0OTJjZWUzNzcyYWFjMWZjNDE5YTIyZWI1ZTI1YTRlMTUzNTFjZWI2M2QyYThhZGE2YTkzZDI5YWZhYWU2YjZmOWI1NWRlYmY1NmRjZTM2MTI5Mjc4ZTEwNDM2N2FkNTVhY2U3N2MxMzQ4MTM5NWQzODhkMzI=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "dsushil2000",
+  "repository-name": "platform-ldap-svc"
+}
